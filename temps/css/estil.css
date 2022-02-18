@@ -1,0 +1,589 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;  
+}
+#portada {
+     z-index: 11;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #387E5F;
+    background-size: cover;
+}
+
+#video {
+    height: 20vh;
+    display: flex;
+}
+
+#pantalla {
+   
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+/*    background-color: #105134;*/
+    background-image: linear-gradient(135deg, #00B7D4, #505488, #2F3F80, #161569, #5A4894, #A950A1, #FF7CAE);
+    background-size: 500%;
+    animation: fanimado 5s infinite;
+}
+@keyframes fanimado{
+    0%{
+background-position: 0% 50%;
+    }
+    50%{
+background-position: 100% 50%;
+    }
+    100%{
+background-position: 0% 50%;
+    }
+}
+
+
+#so {
+    height: 3vh;
+    margin-top: 90%;
+    position: absolute;
+    
+    
+}
+
+#text {
+    font-size: 23px;
+    color: white;
+    font-family: 'Candal';
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 40%;
+}
+
+h1 {
+   font-size: 15px;
+    font-family: 'Candal';
+    color: white;
+    padding: 2%;
+    position: absolute;
+   
+}
+
+
+#botoCiutat {
+    width: 30vw;
+    height: 7vh;
+    color: white;
+    background-color:black;
+    border-radius: 12%;
+    position: absolute;
+    margin-top: 83%; 
+    margin-left: 35%;
+}
+
+
+
+#ciutat {
+    height: 1vh;
+    width: 30vw;
+    padding: 5%;
+    opacity: 75%;
+    position: absolute;
+    margin-top: 43%;
+    margin-left:30%;
+    border-radius: 16px 0px 16px 0px;
+    background-color: white;
+    background-color: white;   
+}
+
+#pare {
+    display: flex;
+    justify-content: center;
+    align-content:space-around;
+    background-size: cover;
+    flex-direction: column;
+    
+}
+
+#pantallaDos {
+     z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #2a9d8f;
+
+}
+
+
+#NomCiutat {
+   font-family: 'Candal';
+}
+
+#temp {
+    margin-top: 40%;
+    color: white;
+    position: absolute;
+    padding: 10%;
+    font-family: 'Montserrat';   
+}
+
+#Dia {
+    position: absolute;
+    margin-top: 10%;
+
+}
+
+#dia {
+    position: absolute;
+    height: 3vh;
+    margin-top: 4%;
+    margin-left: 75%;
+}
+
+#diaText {
+    
+    margin-top: 20%;
+    font-family: monospace;
+    color: white;
+    padding: 6%;
+    position: absolute;
+}
+
+#botoFons {
+    height: 10vh;
+    margin-top: 34%;
+    margin-left: 84%;
+}
+
+#nomIData {
+    font-size: 20px;
+    color: white;
+    padding: 6%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+
+#imatge {
+    height: 18vh;
+    background-color: #DB6B97;
+    margin-top: 40%;
+    position: absolute;
+    margin-left: 62%;
+    border-radius: 14%;
+}
+
+.imgPetita {
+    height: 14vh;
+
+}
+
+#tempSetmana {
+    font-family:'Open Sans';
+    font-size: 20px;
+    margin-top: 50%;
+    
+}
+
+#sol {
+    height: 45vh;
+    margin-top: 60%;
+    margin-left: 21%;
+    position: absolute;
+   
+}
+
+#info {
+    margin-top: 23%;
+    color: white;
+    font-family:'Open Sans';
+    font-size: 10px;
+    position: absolute;
+    padding:4%;
+}
+
+
+
+#titol {
+    font-size: 17px;
+    position: absolute;
+    margin-top: 78%;
+    margin-left: 67%;
+    color: white;
+    font-family: 'Candal';
+    
+}
+
+#pantallaSol {
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #387E5F;
+}
+
+#SSol {
+    position: absolute;
+    color: white;
+    font-family: 'Candal';
+    font-size: 65px;
+    margin-top: 145%;
+     padding: 4%;
+}
+
+.DDia {
+    position: absolute;
+    color: white;
+    font-family: 'Candal';
+    font-size: 30px;
+    margin-top: 10%;
+    padding: 4%;   
+}
+
+
+#pantallaNuvols {
+     z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #6930C3;
+}
+
+#NNuvol {
+    position: absolute;
+    color: white;
+    font-family: 'Candal';
+    font-size: 35px;
+    margin-top: 155%;
+     padding: 4%;
+}
+
+#creu {
+    height: 9vh;
+    position: absolute;
+    margin-left: 79%;
+    padding: 4%;
+    
+}
+
+#SoliNuvol {
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #D64C4C;
+}
+
+#pluja {
+     z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #219EBC;
+}
+
+#neu {
+     z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #FFD60A;
+}
+
+#boira {
+     z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #F9A9C4;
+}
+
+#raig {
+      z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #293A52;
+}
+
+#nuvol {
+      z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #6930C3;
+}
+
+#n {
+    height: 21vh;
+    margin-top: 70%;
+    margin-left: 21%;
+    position: absolute;
+}
+
+#snp {
+     position: absolute;
+    color: white;
+    font-family: 'Candal';
+    font-size: 30px;
+    margin-top: 100%;
+     padding: 4%;
+}
+
+#PantallaSnp {
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-color: #ED8203;
+}
+
+#quadre1 {
+    margin-top: 79%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 60%;
+    padding: %;
+}
+
+#DDies {
+    font-size: 13px;
+    color: white;
+    padding: 6%;
+    margin-top: 90%;
+    position: absolute;
+    font-family:'Candal';
+}
+
+#max {
+    font-size: 13px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 95%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#min {
+    font-size: 13px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 90%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#img1 {
+   margin-top: 70%;
+    height: 12vh;
+    
+}
+
+#click1 {
+      height: 4vh;
+    width: 12vw;
+    position: absolute;
+    margin-top: 103%;
+    margin-left: 85%;
+     background-color: #DB6B97;
+    color:white;
+    border-radius: 30%;
+}
+
+#quadre2 {
+    margin-top: 102%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 60%;
+}
+
+#DM {
+     font-size: 12.5px;
+    color: white;
+    padding: 6%;
+    margin-top: 110%;
+    position: absolute;
+    font-family:'Candal';
+}
+
+#min2 {
+    font-size: 15px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 110%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#max2 {
+    font-size: 15px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 115%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#click2 {
+      height: 4vh;
+    width: 12vw;
+    position: absolute;
+    margin-top: 123%;
+    margin-left: 85%;
+     background-color: #DB6B97;
+    color:white;
+      border-radius: 30%;
+}
+
+#quadre3 {
+    margin-top: 122%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 60%;
+}
+
+#quadre4 {
+    margin-top: 140%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 60%;
+}
+
+#DMC {
+    font-size: 13px;
+    color: white;
+    padding: 6%;
+    margin-top: 132%;
+    position: absolute;
+    font-family:'Candal';
+}
+
+#min3 {
+    font-size: 15px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 133%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#max3 {
+    font-size: 15px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 138%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#Dj {
+    font-size: 13px;
+    color: white;
+    padding: 6%;
+    margin-top: 149.5%;
+    position: absolute;
+    font-family:'Candal';
+}
+
+#min4 {
+    font-size: 15px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 150%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#max4 {
+    font-size: 15px;
+    color: white;
+    padding: 6%;
+    margin-left: 25%;
+    margin-top: 155%;
+    position: absolute;
+    font-family:'Open Sans';
+}
+
+#click3 {
+      height: 4vh;
+    width: 12vw;
+    position: absolute;
+    margin-top: 142%;
+    margin-left: 85%;
+     background-color: #DB6B97;
+    color:white;
+      border-radius: 30%;
+}
+
+#click4 {
+    height: 4vh;
+    width: 12vw;
+    position: absolute;
+    margin-top: 159%;
+    margin-left: 85%;
+    background-color: #DB6B97;
+    color:white;
+      border-radius: 30%;
+}
+
+#img2 {
+      margin-top: 70%;
+    height: 12vh;
+}
+
+#img3 {
+      margin-top: 70%;
+    height: 12vh;
+}
+
+#img4 {
+    height: 12vh;
+      margin-top: 70%;
+}
+
+#temperatura {
+    font-size: 40px;
+    font-family: 'Candal';
+    
+}
+
+#Ara {
+    font-family: monospace;
+    font-size: 15px;
+}
